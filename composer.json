@@ -1,0 +1,26 @@
+{
+    "name": "fontai/propel2-parenttostring-behavior",
+    "type" : "propel-behavior",
+    "description": "Fontai Propel2 ParentTostring Behavior",
+    "authors": [
+        {
+            "name": "Lumír Toman",
+            "email": "toman@websource.cz"
+        }
+    ],
+    "extra": {
+        "name": "parent_to_string",
+        "class": "Fontai\\Propel\\Behavior\\ParentToString\\ParentToStringBehavior"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "propel/propel": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Fontai\\Propel\\Behavior\\ParentToString\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
